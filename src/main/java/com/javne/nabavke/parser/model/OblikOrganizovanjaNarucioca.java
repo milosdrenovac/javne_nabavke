@@ -5,6 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -12,6 +13,7 @@ import lombok.NoArgsConstructor;
 @Table(name="oblik_organizovanja_narucioca")
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
 public class OblikOrganizovanjaNarucioca {
 	
 	@Id

@@ -8,6 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -15,8 +16,8 @@ import lombok.NoArgsConstructor;
 @Table(name="entry")
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
 public class Entry {
-	
 	@Id
 	private int sifraNabavke;
  	private String nazivDokumenta;
